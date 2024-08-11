@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web development quiz" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Ralph Mavhunga" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- #section-1 -->
+    <header class="menu grid" id="section-1">
+      <!-- logo -->
+      <div class="logo"><h1>9.</h1></div>
+
+      <!-- nav -->
+      <div class="nav-bar">
+        <!-- nav list -->
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="#section-1">Section 1</a></li>
+            <li><div class="underline"></div></li>
+            <li><a href="#section-2">Section 2</a></li>
+            <li><div class="underline"></div></li>
+            <li><a href="#section-3">Section 3</a></li>
+            <li><div class="underline"></div></li>
+            <li><a href="#section-4">Section 4</a></li>
+            <li><div class="underline"></div></li>
+            <li><a href="#section-5">Section 5</a></li>
+            <li><div class="underline"></div></li>
+            <li><a href="#section-6">Section 6</a></li>
+          </ul>
+        </nav>
+        <!-- menu button -->
+        <button
+          class="nav-toggle"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span class="hamburger-icon" id="menu-icon">&#9776;</span>
+          <span class="close-icon" id="close-icon">&#9747;</span>
+        </button>
+      </div>
+    </header>
+    <!-- .section-1 -->
+
+    <main id="content" class="main-area">
+      <!-- #section-2 -->
+      <section class="hero grid" id="section-2">
+        <!-- .hero -->
+        <div class="hero-content">
+          <!-- .hero-content -->
+          <h1 class="heading">Heading</h1>
+          <h2 class="section-2-h2">Introduction</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </section>
+      <!-- .section-2 -->
+
+      <!-- #section-3 -->
+      <section class="section-3 grid" id="section-3">
+        <!-- section-3 item 1 -->
+        <div class="section-3-content"></div>
+
+        <!-- section-3 item 2 -->
+        <div class="section-3-content section-3-card">
+          <h2 class="heading">Heading</h2>
+          <h1 class="section-3-h2">Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="#" class="section-3-btn">Link</a>
+        </div>
+
+        <!-- section-3 item 3 -->
+        <div class="section-3-content section-3-card">
+          <h2 class="heading">Heading</h2>
+          <h1 class="section-3-h2">Title</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="#" class="section-3-btn">Link</a>
+        </div>
+
+        <!-- section-3 item 4 -->
+        <div class="section-3-content"></div>
+      </section>
+      <!-- .section-3 -->
+
+      <!-- #section-4 -->
+      <section class="section-4 grid" id="section-4">
+        <div class="section-4-content">
+          <!-- section-4 item 1-->
+          <div class="section-4-content-item section-4-content-item-1 rowspan">
+            <h2 class="section-4-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <!-- section-4 item 2 -->
+          <div class="section-4-content-item section-4-content-item-2">
+            <button id="dropdownButton" class="section-4-select-btn">
+              Select
+            </button>
+            <div id="dropdownContent" class="dropdown-content">
+              <li class="section-4-select-option" value="Item 1">Item 1</li>
+              <li class="section-4-select-option" value="Item 2">Item 2</li>
+              <li class="section-4-select-option" value="Item 3">Item 3</li>
+            </div>
+            <div class="custom-select-arrow"></div>
+          </div>
+
+          <!-- modal -->
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p id="modalContent"></p>
+            </div>
+          </div>
+
+          <!-- section-4 item 3 -->
+          <div class="section-4-content-item section-4-content-item-3 rowspan">
+            <h2 class="section-4-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <!-- section-4 item 4 -->
+          <div class="section-4-content-item section-4-content-item-4">
+            <h2 class="section-4-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <!-- section-4 item 5 -->
+          <div class="section-4-content-item section-4-content-item-5">
+            <h2 class="section-4-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <!-- section-4 item 6 -->
+          <div class="section-4-content-item section-4-content-item-6">
+            <h2 class="section-4-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- .section-4 -->
+
+      <!-- #section-5 -->
+      <section class="section-5" id="section-5">
+        <!-- section-5 item 1 -->
+        <div class="section-5-content">
+          <div class="section-5-content-text-wrapper">
+            <h2 class="section-5-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <a href="#" class="section-5-btn">Link</a>
+        </div>
+        <!-- section-5 item 2 -->
+        <div class="section-5-content">
+          <div class="section-5-content-text-wrapper">
+            <h2 class="section-5-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <a href="#" class="section-5-btn">Link</a>
+        </div>
+        <!-- section-5 item 3 -->
+        <div class="section-5-content">
+          <div class="section-5-content-text-wrapper">
+            <h2 class="section-5-h2">Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <a href="#" class="section-5-btn">Link</a>
+        </div>
+      </section>
+      <!-- .section-5 -->
+
+      <!-- #section-6 -->
+      <section class="section-6 grid" id="section-6">
+        <div class="section-6-content">
+          <div class="section-6-content-item section-6-content-item-1"></div>
+          <div class="section-6-content-item section-6-content-item-2"></div>
+          <div class="section-6-content-item section-6-content-item-3"></div>
+          <div class="section-6-content-item section-6-content-item-4"></div>
+          <div class="section-6-content-item section-6-content-item-5"></div>
+          <div class="section-6-content-item section-6-content-item-6"></div>
+        </div>
+      </section>
+      <!-- .section-6 -->
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
